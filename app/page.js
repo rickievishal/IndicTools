@@ -21,7 +21,7 @@ const page = () => {
                       Open-source Indian Language Technologies.
                     </Tag>
                     <p className='max-w-xl text-sm sm:text-lg text-center mt-8'>
-                      We aim to unite developers, researchers, linguists, and enthusiasts to collaboratively solve meaningful, real-world problems in speech, translation, and natural language processing for Indic languages.
+                     {" We aim to unite developers, researchers, linguists, and enthusiasts to collaboratively solve meaningful, real-world problems in speech, translation, and natural language processing for Indic languages."}
                     </p>
                     <div className='actions flex justify-center items-center gap-4 mt-8'>
                         <Link href={"https://github.com/eSubhalekha/eSubhalekha"}>
@@ -53,7 +53,7 @@ const page = () => {
                      🚀  Mission
                     </h2>
                     <p className='max-w-2xl text-lg text-start'>
-                      To establish an open, inclusive, and problem-driven platform where contributors from diverse backgrounds can:
+                      {"To establish an open, inclusive, and problem-driven platform where contributors from diverse backgrounds can:"}
                     </p>
                     <ol className='max-w-xl w-full list-disc text-xl mt-8 pl-8 space-y-4'>
                       <li>
@@ -76,17 +76,17 @@ const page = () => {
                      🔍  Open Problems
                     </h2>
                     <p className='max-w-2xl text-lg text-start'>
-                      To establish an open, inclusive, and problem-driven platform where contributors from diverse backgrounds can:
+                     {" To establish an open, inclusive, and problem-driven platform where contributors from diverse backgrounds can:"}
                     </p>
                     <ol className='max-w-xl w-full list-disc text-xl mt-8 pl-8 space-y-4'>
                       <li>
                         Anyone to submit new problems 
                       </li>
                       <li>
-                        Community members to explore, discuss, and solve these challenges 
+                      {"  Community members to explore, discuss, and solve these challenges"} 
                       </li>
                       <li>
-                       Flexible levels of contribution—research, engineering, design, or documentation
+                      {" Flexible levels of contribution—research, engineering, design, or documentation"}
                       </li>
                     </ol>
                     
@@ -111,10 +111,10 @@ const page = () => {
                               <li>
                                <p>
                                 <span className='font-semibold'>
-                                  CoTrans-Pilot :
+                                  {"CoTrans-Pilot :"}
                                 </span>
                                 <span className=''>
-                                  {" "}Initial MVP trained on small-scale, expressive, domain-rich datasets
+                                  {" "}{"Initial MVP trained on small-scale, expressive, domain-rich datasets"}
                                 </span>
                                </p>
                               </li>
@@ -143,7 +143,7 @@ const page = () => {
                                 Emotionally expressive content 
                               </li>
                               <li>
-                                Domain-specific commands (e.g., UMANG, BigBasket, Alexa)
+                                {`Domain-specific commands (e.g., UMANG, BigBasket, Alexa)`}
                               </li>
                             </ol>
                          </div>
@@ -154,7 +154,7 @@ const page = () => {
                                 <span> 🎙️ RSML</span><span className='font-light text-wrap'>- Rich Speech Markup Language</span>
                             </h2>
                             <p className='max-w-2xl text-lg text-start'>
-                                    RSML is a markup language specification designed to annotate expressive characteristics in speech such as:
+                                    {"RSML is a markup language specification designed to annotate expressive characteristics in speech such as:"}
                             </p>
                             <ol className='max-w-xl w-full text-lg list-disc pl-24 mt-4 '>
                               <li>
@@ -290,8 +290,8 @@ const page = () => {
                 <section className="bg-[var(--foreground)] text-[var(--background)] py-12 px-6 md:px-12 rounded-2xl shadow-lg w-full max-w-4xl mx-auto text-center space-y-6 my-8">
                   <h2 className="text-3xl font-bold">Start Contributing</h2>
                   <p className="text-lg">
-                    Whether you're a student, researcher, or enthusiast — you can drive change.  
-                    Contribute problems, build tools, or host sprints to shape the future of Indian Language AI.
+                   {` Whether you're a student, researcher, or enthusiast — you can drive change.  
+                    Contribute problems, build tools, or host sprints to shape the future of Indian Language AI.`}
                   </p>
                   <Button className="bg-black text-white text-lg rounded-full hover:bg-gray-900 transition">
                     <FaGithub  /> Contribute Now
@@ -300,7 +300,7 @@ const page = () => {
                 <section className="bg-[var(--background)] text-[var(--foreground)] py-12 px-6 md:px-12 rounded-2xl shadow-lg w-full max-w-4xl mx-auto text-center space-y-6 mt-4 border-1 border-gray-800 my-16">
                   <h2 className="text-3xl font-bold">Community</h2>
                   <p className="text-lg">
-                    We’re building IndicTools in the open — with you. Whether you're here to contribute code, suggest ideas, ask questions, or just stay in the loop, there's a place for you in our community. Join us on Discord, start a discussion on GitHub, or subscribe to stay updated.
+                    {"We’re building IndicTools in the open — with you. Whether you're here to contribute code, suggest ideas, ask questions, or just stay in the loop, there's a place for you in our community. Join us on Discord, start a discussion on GitHub, or subscribe to stay updated."}
                   </p>
                   <div className='flex items-center justify-center gap-x-4'>
                     <Button className="text-lg ">
